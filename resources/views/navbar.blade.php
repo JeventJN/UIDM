@@ -10,7 +10,7 @@
 <body class="overflow-x-hidden">
     <div class="fixed w-[99vw] h-[4vw] bg-[#356F97] text-[2vw] flex items-center z-50">
         <div class="w-[50%] ml-[2vw] font-bold">
-            STEAM STORE GAMES
+            STEAM STORE GAMES aa
         </div>
         <div class="w-[60%] flex justify-around">
             <a href="">
