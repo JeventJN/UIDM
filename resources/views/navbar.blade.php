@@ -32,18 +32,18 @@
                 <button class="peer w-[16vw] h-[3.5vw] hover:text-white hover:rounded-[1vw] hover:bg-[#1A2737]">Content</button>
 
                 <!-- the menu here -->
-                <div class="peer1 hidden peer-hover:flex peer-hover:flex-col fixed mt-[3.5vw] hover:flex hover:flex-col">
+                <div class="peer1 hidden peer-hover:flex peer-hover:flex-col fixed mt-[3.5vw] hover:flex hover:flex-col" onmouseover="peer.style.backgroundColor:#ffffff">
                     <div class="h-[0.2vw]"></div>
-                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw]" href="home#language">Language</a>
-                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw]" href="home#date">Release Date</a>
-                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw]" href="home#developer">Developer</a>
-                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw]" href="home#publisher">Publiser</a>
-                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw]" href="home#platform">Platform</a>
-                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw]" href="home#age">Required Age</a>
-                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw]" href="home#category">Categories</a>
-                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw]" href="home#gendre">Gendres</a>
-                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw]" href="home#tag">Tag</a>
-                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw]" href="home#price">Price</a>
+                    <a class="peer2 w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#language">Language</a>
+                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#date">Release Date</a>
+                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#developer">Developer</a>
+                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#publisher">Publiser</a>
+                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#platform">Platform</a>
+                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#age">Required Age</a>
+                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#category">Category</a>
+                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#genre">Genre</a>
+                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#tag">Tag</a>
+                    <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#price">Price</a>
                 </div>
             </div>
             </div>
