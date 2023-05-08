@@ -10,13 +10,34 @@
 <body>
     @include('navbar')
     <div class="w-screen h-auto bg-gradient-to-b from-[#163E58] to-[#1A2737]">
+        <div class="h-[6vw] w-screen"></div>
         <a id="database">
-            <div class="database h-[47vw]">
+            <div class="database w-screen flex flex-col">
+                <div class="flex w-screen justify-start items-center ml-[1vw]">
+                    <img class="rounded-[50%] w-[10vw] h-[5vw]" src="Assets/Kaggle_Logo.png" alt="">
+                    <div class="text-[2vw] text-white font-bold font-nunito italic">
+                        &nbsp: Steam Store Game (Clean dataset)
+                    </div>
+                </div>
+                <div class="ml-[1vw] text-[2vw] text-white font-bold font-nunito leading-loose">
+                    <div class="flex">
+                        <div>
+                            Author &nbsp&nbsp&nbsp&nbsp&nbsp: <mark class="bg-[#FFFFFF] rounded-[1vw]"> &nbsp Nik Davis &nbsp</mark> <br/>
+                            Published : <mark class="bg-[#FFFFFF] rounded-[1vw]"> &nbsp 05/02/2019 &nbsp</mark> <br/>
+                        </div>
+                        <div class="ml-[4vw]">
+                            Row &nbsp&nbsp&nbsp&nbsp&nbsp: <mark class="bg-[#FFFFFF] rounded-[1vw]"> &nbsp 27.075 &nbsp</mark> <br/>
+                            column : <mark class="bg-[#FFFFFF] rounded-[1vw]"> &nbsp 18 &nbsp</mark> <br/>
+                        </div>
+                    </div>
+                    Link : <mark class="bg-[#FFFFFF] rounded-[1vw]"> &nbsp https://www.kaggle.com/datasets/nikdavis/steam-store-games &nbsp</mark>
+                </div>
+                <img  class="p-[2vw] mr-[1vw]" src="Assets/KaggleInfo.png" alt="">
             </div>
         </a>
         <a id="language">
             <div class="h-[4.5vw] w-screen"></div>
-            <div class="segment rounded-r-[1vw] text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
+            <div class="segment text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
                 <div class="segmentTitle flex justify-center items-center rounded-l-lg rounded-[2vw] h-5vw bg-red-500">
                     Language
                 </div>
@@ -26,22 +47,19 @@
             </div>
         </a>
         <a id="date">
-            {{-- <div class="h-[4.5vw] w-screen"></div>
-            <div class="segment rounded-r-[1vw] text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
+            <div class="h-[4.5vw] w-screen"></div>
+            <div class="segment text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
                 <div class="segmentTitle flex justify-center items-center rounded-l-lg rounded-[2vw] bg-red-500">
                     Release Date
                 </div>
                 <div class="w-screen h-auto flex justify-center">
-                    {!! file_get_contents(public_path('HTML/devpie.html')) !!}
+                    {!! file_get_contents(public_path('HTML/rdpie.html')) !!}
                 </div>
-                <div class="w-screen h-auto flex justify-center">
-                    {!! file_get_contents(public_path('HTML/devbar.html')) !!}
-                </div>
-            </div> --}}
+            </div>
         </a>
         <a id="developer">
             <div class="h-[4.5vw] w-screen"></div>
-            <div class="segment rounded-r-[1vw] text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
+            <div class="segment text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
                 <div class="segmentTitle flex justify-center items-center rounded-l-lg rounded-[2vw] bg-red-500">
                     Developer
                 </div>
@@ -55,7 +73,7 @@
         </a>
         <a id="publisher">
             <div class="h-[4.5vw] w-screen"></div>
-            <div class="segment rounded-r-[1vw] text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
+            <div class="segment text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
                 <div class="segmentTitle flex justify-center items-center rounded-l-lg rounded-[2vw] bg-red-500">
                     Publisher
                 </div>
@@ -69,7 +87,7 @@
         </a>
         <a id="platform">
             <div class="h-[4.5vw] w-screen"></div>
-            <div class="segment rounded-r-[1vw] text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
+            <div class="segment text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
                 <div class="segmentTitle flex justify-center items-center rounded-l-lg rounded-[2vw] bg-red-500">
                     Platform
                 </div>
@@ -83,7 +101,7 @@
         </a>
         <a id="age">
             <div class="h-[4.5vw] w-screen"></div>
-            <div class="segment rounded-r-[1vw] text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
+            <div class="segment text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
                 <div class="segmentTitle flex justify-center items-center rounded-l-lg rounded-[2vw] bg-red-500">
                     Age
                 </div>
@@ -100,7 +118,7 @@
         </a>
         <a id="category">
             <div class="h-[4.5vw] w-screen"></div>
-            <div class="segment rounded-r-[1vw] text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
+            <div class="segment text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
                 <div class="segmentTitle flex justify-center items-center rounded-l-lg rounded-[2vw] bg-red-500">
                     Category
                 </div>
@@ -114,7 +132,7 @@
         </a>
         <a id="gender">
             <div class="h-[4.5vw] w-screen"></div>
-            <div class="segment rounded-r-[1vw] text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
+            <div class="segment text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
                 <div class="segmentTitle flex justify-center items-center rounded-l-lg rounded-[2vw] bg-red-500">
                     Genre
                 </div>
@@ -128,7 +146,7 @@
         </a>
         <a id="tag">
             <div class="h-[4.5vw] w-screen"></div>
-            <div class="segment rounded-r-[1vw] text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
+            <div class="segment text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
                 <div class="segmentTitle flex justify-center items-center rounded-l-lg rounded-[2vw] bg-red-500">
                     Tag
                 </div>
@@ -142,7 +160,7 @@
         </a>
         <a id="price">
             <div class="h-[4.5vw] w-screen"></div>
-            <div class="segment rounded-r-[1vw] text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
+            <div class="segment text-white font-nunito font-black flex text-[1.75vw] h-auto items-start justify-start flex flex-col">
                 <div class="segmentTitle flex justify-center items-center rounded-l-lg rounded-[2vw] bg-red-500">
                     Price
                 </div>

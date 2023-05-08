@@ -9,11 +9,13 @@
 </head>
 <body class="overflow-x-hidden">
     <div class="fixed w-[99vw] h-[4vw] bg-[#356F97] text-[2vw] flex items-center z-50">
-        <div class="w-[50%] ml-[2vw] font-bold">
-            STEAM STORE GAMES
+        <div class="w-[50%] ml-[2vw] font-bold hover:text-white">
+            <a href="/">
+                STEAM STORE GAMES
+            </a>
         </div>
         <div class="w-[60%] flex justify-around">
-            <a href="">
+            <a href="home#database">
                 <div class="w-[20vw] flex justify-center">
                     <div class="w-[16vw] flex justify-center h-[3.5vw] hover:text-white hover:rounded-[1vw] hover:bg-[#1A2737]">
                         <p>Dataset</p>
@@ -29,10 +31,9 @@
                 </div>
             </a> --}}
             <div class="flex flex-col w-[20vw] border-x-[0.2vw] border-x-[#1A2737] items-center">
-                <button class="peer w-[16vw] h-[3.5vw] hover:text-white hover:rounded-[1vw] hover:bg-[#1A2737]">Content</button>
-
+                <div class="peer w-[16vw] h-[3.5vw] hover:text-white hover:rounded-[1vw] hover:bg-[#1A2737] flex justify-center">Content</div>
                 <!-- the menu here -->
-                <div class="peer1 hidden peer-hover:flex peer-hover:flex-col fixed mt-[3.5vw] hover:flex hover:flex-col" onmouseover="peer.style.backgroundColor:#ffffff">
+                <div class="peer1 hidden peer-hover:flex peer-hover:flex-col fixed mt-[3.5vw] hover:flex hover:flex-col">
                     <div class="h-[0.2vw]"></div>
                     <a class="peer2 w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#language">Language</a>
                     <a class="w-[20vw] text-[1.5vw] flex justify-center items-center bg-[#1A2737] text-white border-[0.1vw] hover:bg-red-500" href="home#date">Release Date</a>

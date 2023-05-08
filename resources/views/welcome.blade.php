@@ -17,7 +17,7 @@
                 STEAM
             </div>
         </div>
-        <a href="dataset">
+        <a href="home">
             <div class="container w-[48vw] h-[4vw] flex justify-center items-center text-[#05142D] rounded-[2vw] mt-[2vw] bg-slate-500 hover:animate-pulse hover:cursor-pointer">
                 <div class="text-[2vw]">
                     DATA MINING : STEAM'S GAMES DATA ANALYSIS
